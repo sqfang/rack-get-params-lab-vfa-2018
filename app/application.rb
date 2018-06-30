@@ -18,6 +18,7 @@ class Application
         resp.write "#{item}\n"
       end
     elsif req.path.match(/add/)
+      item = 
       if 
         
       else
