@@ -19,6 +19,9 @@ class Application
       end
     elsif req.path.match(/add/)
       if 
+        
+      else
+        
       end 
     elsif req.path.match(/search/)
       search_term = req.params["q"]
