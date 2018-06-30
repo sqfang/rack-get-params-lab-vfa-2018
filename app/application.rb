@@ -14,7 +14,7 @@ class Application
       if @@cart.empty?
         resp.write "Your cart is empty"
       else
-        @@cart.each do |cart|
+        @@cart.each do |item|
         resp.write "#{item}\n"
       end
     end
