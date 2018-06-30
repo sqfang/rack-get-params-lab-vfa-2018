@@ -18,7 +18,7 @@ class Application
         resp.write "#{item}\n"
       end
     elsif req.path.match(/add/)
-      item = 
+      item = req.params
       if 
         
       else
