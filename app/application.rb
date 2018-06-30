@@ -13,6 +13,9 @@ class Application
     elsif req.path.match(/cart/)
       
       end
+    elsif req.path.match(/add/)
+    
+      end 
     elsif req.path.match(/search/)
       search_term = req.params["q"]
       resp.write handle_search(search_term)
