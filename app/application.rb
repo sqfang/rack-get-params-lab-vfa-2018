@@ -11,7 +11,8 @@ class Application
         resp.write "#{item}\n"
       end
     elsif req.path.match(/cart/)
-      
+      if @@cart.empty?
+        
       end
     elsif req.path.match(/add/)
     
