@@ -20,7 +20,7 @@ class Application
     elsif req.path.match(/add/)
       item = req.params["item"]
       if @@items.include?(item)
-        resp.write 
+        resp.write "" 
       else
         resp.write "We don't have that item"
       end 
